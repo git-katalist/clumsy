@@ -14,6 +14,7 @@ export default function Home({ prefix }) {
         <h4>hello my beautiful world!</h4>
         <p>What's up my dude</p>
         <p>Let's say goodbye</p>
+        <p>I am right here with you</p>
         <img src="/favicon.ico" alt="hey" />
       </main>
     </>
