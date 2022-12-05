@@ -1,3 +1,4 @@
+import { assetPrefix, basePath } from "next.config";
 import Head from "next/head";
 
 export default function Home({ prefix }) {
