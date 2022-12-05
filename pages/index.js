@@ -1,8 +1,8 @@
 import { assetPrefix, basePath } from "next.config";
 import Head from "next/head";
-const Fav = "/favicon.ico";
+import { prefix } from "utils/prefix";
 
-export default function Home({ prefix }) {
+export default function Home() {
   console.log("Path is" + prefix);
   return (
     <>
@@ -17,7 +17,7 @@ export default function Home({ prefix }) {
         <p>What's up my dude</p>
         <p>Let's say goodbye</p>
         <p>I am right here with you</p>
-        <img src={Fav} alt="hey" />
+        <img src={`${prefix} /favicon.ico`} alt="hey" />
       </main>
     </>
   );

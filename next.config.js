@@ -5,12 +5,12 @@ const { prefix } = "./utils/prefix";
 
 const nextConfig = {
   reactStrictMode: true,
-  images: {
-    loader: "akamai",
-    path: "",
-  },
   basePath: prefix,
   assetPrefix: prefix,
+  images: {
+    loader: "akamai",
+    path: "/",
+  },
 };
 
 module.exports = nextConfig;
