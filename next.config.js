@@ -11,6 +11,9 @@ const nextConfig = {
     loader: "akamai",
     path: "/",
   },
+  compiler: {
+    styledComponents: true,
+  },
 };
 
 module.exports = nextConfig;
