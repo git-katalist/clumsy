@@ -17,7 +17,7 @@ export default function Home() {
         <p>What's up my dude</p>
         <p>Let's say goodbye</p>
         <p>I am right here with you</p>
-        <img src={`${prefix} /favicon.ico`} alt="hey" />
+        <img src={`${prefix}/favicon.ico`} alt="hey" />
       </main>
     </>
   );
